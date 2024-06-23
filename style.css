@@ -13,6 +13,10 @@ header li {
     display: inline;
 }
 
+header .container {
+    display: flex;
+}
+
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -31,6 +35,12 @@ header li {
 .articles article {
     width: 45%;
 }
+
+section {
+    padding: 1%;
+}
+
+ 
 
 .footer_ {
     display: flex;
