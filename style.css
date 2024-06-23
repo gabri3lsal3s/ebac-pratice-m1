@@ -9,13 +9,51 @@ body {
     color: black;
 }
 
-header li {
+header li, a {
     display: inline;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > header {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h2 {
+    margin: 10px 0 5px 0;
+    font-size: 20p;
+}
+
+header h3 {
+    margin: 10px 0 5px 0;
+    font-size: 25px;
 }
 
 .container {
     width: 1366px;
     margin: 0 auto;
+}
+
+#economy {
+    background-color: rgba(215, 255, 215, 0.1);
+}
+
+#tecnology {
+    background-color: rgba(215, 226, 255, 0.1);
 }
 
 .articles {
@@ -26,15 +64,36 @@ header li {
 
 .articles article img {
     height: 600px;
+    border-radius: 10px;
 }
 
 .articles article {
     width: 45%;
 }
 
-.footer_ {
+.articles a {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.articles a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10px;
+}
+
+#footer_ {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
     padding: 10px;
+    background-color: black;
+    color: white;
 }
